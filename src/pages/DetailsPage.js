@@ -23,12 +23,30 @@ const DetailsPage = () => {
       "/images/g2-5.jpg",
       "/images/g2-6.jpg"
     ],
+    i1: [
+      "/images/i1-1.jpg",
+      "/images/i1-2.jpg",
+      "/images/i1-3.jpg",
+      "/images/i1-4.jpg",
+      "/images/i1-5.jpg",
+      "/images/i1-6.jpg"
+    ],
+    i2: [
+      "/images/i2-1.jpg",
+      "/images/i2-2.jpg",
+      "/images/i2-3.jpg",
+      "/images/i2-4.jpg",
+      "/images/i2-5.jpg",
+      "/images/i2-6.jpg"
+    ],
     // 他のセットも同様に追加
   };
 
   const mainImages = {
     g1: "/images/g1-x.png",
     g2: "/images/g2-x.png",
+    i1: "/images/i1-x.jpg",
+    i2: "/images/i2-x.png",
     // 他のセットも同様に追加
   };
 
