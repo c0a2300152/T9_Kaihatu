@@ -1,24 +1,67 @@
+/* PreferencePage.css */
+
 .preferences {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  label {
-    display: block;
-    margin: 5px 0;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #7a4ced;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #6a42d4;
-  }
-  
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: #f9fafc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preferences h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.preferences p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.genre-item {
+  background-color: #eae8ff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.genre-item input {
+  margin-right: 5px;
+}
+
+.genre-item:hover {
+  background-color: #d3cfff;
+}
+
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.next-button {
+  background-color: #7a4ced;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
